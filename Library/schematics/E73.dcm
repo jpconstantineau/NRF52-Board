@@ -1,3 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 6_PIN_SERIAL_TARGET
+D 6-pin header connection for use with the "FTDI BASIC" pinout - TARGET SIDE.  Also known as "Arduino Serial Program Header".  It is used to mate with our FTDI Basic serial programmers using the Arduino IDE.  <b>Note, this device has "TARGET" in the name.</b> It is intended to be used on a design that contains a target micro-controller that you wish to program.  <b>The "sister" device, named "CABLE"</b> is inteneded to be used on a design that usually lives on the end of your USB cable and prvides the converter chip (FTDI232 or FTDI231x) to commnicate serial RX/TX. <b>You can populate with some of these:</b><a href="https://www.sparkfun.com/products/116"> Break Away Headers - Straight</a> (PRT-00116)  For reference (or to suit your programming needs) check out these designs:<ul><li><a href="https://www.sparkfun.com/products/9716"> SparkFun FTDI Basic Breakout - 5V</a> (DEV-09716)</li><li><a href="https://www.sparkfun.com/products/9873"> SparkFun FTDI Basic Breakout - 3.3V</a> (DEV-09873)</li><li><a href="https://www.sparkfun.com/products/12935"> SparkFun FTDI SmartBasic</a> (DEV-12935)</li><li><a href="https://www.sparkfun.com/products/13746"> SparkFun Beefy 3 - FTDI Basic Breakout</a> (DEV-13746)</li></ul>
+K PROD_ID:XXX-00000
+$ENDCMP
+#
+$CMP JUMPER-SMT_2_NC
+D Normally closed trace jumper This jumper has a trace between two pads so it's normally closed (NC). Use a razor knife to open the connection. For best results follow the IPC guidelines for cutting traces: <ul><li>Cutout at least 0.063 mm (0.005 in).</li><li>Remove all loose material to clean up the cut area.</li><li>Seal the cut with an approved epoxy.</li></ul>Reapply solder to reclose the connection. 
+K PROD_ID:XXX-00000
+$ENDCMP
+#
+$CMP JUMPER-SMT_2_NO
+D Normally open jumper This jumper has two pads in close proximity to each other. Apply solder to close the connection. Round pads are easier to solder for beginners, but are a lot larger. SparkFun Product that uses the round pads:<ul><li><a href="https://www.sparkfun.com/products/12781">SparkFun EL Sequencer</a></li></ul> 
+K PROD_ID:XXX-00000
+$ENDCMP
+#
 #End Doc Library

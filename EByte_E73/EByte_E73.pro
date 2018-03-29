@@ -1,4 +1,4 @@
-update=3/27/2018 12:48:40 PM
+update=3/28/2018 8:12:57 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,6 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=E:/GIT/NRF52-Board/Library/schematics/E73
+LibName34=E:/GIT/myelin-kicad-libraries/arm-swd-header
+LibName35=E:/GIT/SparkFun-KiCad-Libraries/Libraries/SparkFun-Jumpers
+LibName36=E:/GIT/SparkFun-KiCad-Libraries/Libraries/SparkFun-Connectors
