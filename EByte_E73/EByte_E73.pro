@@ -1,4 +1,4 @@
-update=3/28/2018 8:12:57 PM
+update=2018-03-31 6:39:39 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,7 +61,7 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=E:/GIT/NRF52-Board/Library/schematics/E73
-LibName34=E:/GIT/myelin-kicad-libraries/arm-swd-header
-LibName35=E:/GIT/SparkFun-KiCad-Libraries/Libraries/SparkFun-Jumpers
-LibName36=E:/GIT/SparkFun-KiCad-Libraries/Libraries/SparkFun-Connectors
+LibName33=D:/GIT/NRF52-Board/Library/schematics/E73
+LibName34=D:/GIT/ErgoTravel/Library/schematics/keyboard_parts
+LibName35=D:/GIT/ErgoTravel/Library/schematics/ProMicro
+LibName36=D:/GIT/ErgoTravel/Library/schematics/canadian_parts
