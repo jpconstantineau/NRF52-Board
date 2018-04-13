@@ -26,6 +26,7 @@ From this [page](http://www.msys2.org/) download:
 - MSYS2 installer 64 bits
 
 Run the installer.
+Start MSYS2 MinGW 64 bits
 
 ```
 
@@ -34,6 +35,7 @@ pacman -Syu
 ```
 
 Quit MSYS2 (to reload things after update)
+Start MSYS2 MinGW 64 bits
 
 ```
 
@@ -42,13 +44,14 @@ pacman -Su
 ```
 
 Quit MSYS2 (to reload things after update)
+Start MSYS2 MinGW 64 bits
 
 ```
 cd /c/GIT/NRF52-Board/util/
 ./msys2_install.sh
 ```
 
-Accept prompts as they come.  Plenty of things will be downloaded and installed.  The following
+Accept prompts requesting your input as they come.  Plenty of things will be downloaded and installed.  The following
 from this [page](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52832#Downloads) will be downloaded:
 
 - SoftDevice: S132-SD-v6
@@ -62,6 +65,17 @@ from his [page](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downl
 
 Once installed, the Makefile.windows found in nRF52_SDK_INSTALL\components\toolchain\gcc
 needs to be updated.
+
+```
+GNU_INSTALL_ROOT := /C/GIT/NRF52-Board/util/gcc-arm-none-eabi/bin/
+GNU_VERSION := 7.2.1
+GNU_PREFIX := arm-none-eabi
+
+```
+
+### Download install Visual Studio Code - or your favorite code/text editor.
+
+From his [page](https://code.visualstudio.com/)
 
 
 
