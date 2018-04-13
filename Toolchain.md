@@ -62,6 +62,7 @@ from his [page](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downl
 
 - GNU Embedded Toolchain for Arm
 
+Quit MSYS2 (to reload things after update)
 
 Once installed, the Makefile.windows found in nRF52_SDK_INSTALL\components\toolchain\gcc
 needs to be updated.
@@ -72,6 +73,16 @@ GNU_VERSION := 7.2.1
 GNU_PREFIX := arm-none-eabi
 
 ```
+
+Start MSYS2 MinGW 64 bits
+
+```
+cd /C/GIT/NRF52-Board/util/nRF5-SDK/nRF5_SDK_15.0.0_a53641a/examples/ble_peripheral/ble_app_hids_keyboard/pca10040/s132/armgcc
+make
+```
+
+The make command will make sure that the arm  build toolchain works.
+Note: nrfjprog is installed, works from command prompt but is not found from msys2. need to fix that. probably just need to add to the path
 
 ### Download install Visual Studio Code - or your favorite code/text editor.
 
