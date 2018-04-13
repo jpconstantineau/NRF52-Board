@@ -1,5 +1,48 @@
 ## Windows 10 Toolchain for NRF52 development
 
+### Installing
+
+### Download and Install GIT for windows
+
+Download from this [page](https://gitforwindows.org/)
+
+- Download Button
+- Install; accept everything as is.  Select nano instead of vi if you have trouble with vi.
+
+### Clone Repo
+
+- Start command prompt
+- cd to your root GIT folder (C:\GIT)
+- git clone https://github.com/jpconstantineau/NRF52-Board.git
+
+### Install and update MSYS
+
+From this [page](http://www.msys2.org/) download:
+
+- MSYS2 installer 64 bits
+
+Run the installer.
+
+'''
+
+pacman -Syu
+
+'''
+
+Quit MSYS2 (to reload things after update)
+
+'''
+
+pacman -Su
+
+'''
+
+Quit MSYS2 (to reload things after update)
+
+'''
+cd /c/GIT/NRF52-Board/util/
+./msys2_install.sh
+'''
 
 ### Downloading
 From this [page](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52832#Downloads) download the following:
@@ -8,28 +51,12 @@ From this [page](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nR
 - NRF52 SDK: nRF5-SDK-zip
 - Command Line Tools: nRF5x-Command-Line-Tools-Win32
 
-From this [page](http://www.msys2.org/) download:
-
-- MSYS2 installer 64 bits
 
 From his [page](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads) download:
 
 - GNU Embedded Toolchain for Arm
 
 
-### Installing
-
-### Install and update MSYS
-
----
-pacman -Syu
----
-
-Quit MSYS2 (to reload things after update)
-
----
-pacman -Su
----
 
 update Makefile.windows found in nRF52_SDK_INSTALL\components\toolchain\gcc
 
