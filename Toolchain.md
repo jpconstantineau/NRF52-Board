@@ -12,8 +12,12 @@ Download from this [page](https://gitforwindows.org/)
 ### Clone Repo
 
 - Start command prompt
-- cd to your root GIT folder (C:\GIT)
-- git clone https://github.com/jpconstantineau/NRF52-Board.git
+
+```
+cd C:\GIT
+git clone https://github.com/jpconstantineau/NRF52-Board.git
+
+```
 
 ### Install and update MSYS
 
@@ -23,42 +27,43 @@ From this [page](http://www.msys2.org/) download:
 
 Run the installer.
 
-'''
+```
 
 pacman -Syu
 
-'''
+```
 
 Quit MSYS2 (to reload things after update)
 
-'''
+```
 
 pacman -Su
 
-'''
+```
 
 Quit MSYS2 (to reload things after update)
 
-'''
+```
 cd /c/GIT/NRF52-Board/util/
 ./msys2_install.sh
-'''
+```
 
-### Downloading
-From this [page](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52832#Downloads) download the following:
+Accept prompts as they come.  Plenty of things will be downloaded and installed.  The following
+from this [page](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52832#Downloads) will be downloaded:
 
 - SoftDevice: S132-SD-v6
 - NRF52 SDK: nRF5-SDK-zip
 - Command Line Tools: nRF5x-Command-Line-Tools-Win32
 
-
-From his [page](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads) download:
+from his [page](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads) will be downloaded:
 
 - GNU Embedded Toolchain for Arm
 
 
+Once installed, the Makefile.windows found in nRF52_SDK_INSTALL\components\toolchain\gcc
+needs to be updated.
 
-update Makefile.windows found in nRF52_SDK_INSTALL\components\toolchain\gcc
+
 
 GNU toolchain for ARM Cortex-M
 
