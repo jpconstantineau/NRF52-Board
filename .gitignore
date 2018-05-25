@@ -5,3 +5,5 @@ util/nRF5-SDK/*
 util/gcc-arm-none-eabi/*
 *.bak
 util/nRF5x-Command-Line-Tools_Installer.exe
+firmware/Output/*
+*.jlink
