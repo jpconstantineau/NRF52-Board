@@ -400,7 +400,6 @@ Wire Wire Line
 Wire Wire Line
 	3000 2900 3000 3150
 NoConn ~ 2300 1400
-NoConn ~ 2300 1500
 Text Label 2100 1800 0    60   ~ 0
 P0.27
 Text Label 2100 1900 0    60   ~ 0
@@ -702,4 +701,32 @@ Wire Wire Line
 	5300 6950 5570 6950
 Wire Wire Line
 	5565 6850 5300 6850
+$Comp
+L C C4
+U 1 1 5AD35C24
+P 830 1665
+F 0 "C4" H 855 1765 50  0000 L CNN
+F 1 "100 pF" H 855 1565 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 868 1515 50  0001 C CNN
+F 3 "" H 830 1665 50  0001 C CNN
+	1    830  1665
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR015
+U 1 1 5AD35CFB
+P 830 1900
+F 0 "#PWR015" H 830 1650 50  0001 C CNN
+F 1 "GND" H 830 1750 50  0000 C CNN
+F 2 "" H 830 1900 50  0001 C CNN
+F 3 "" H 830 1900 50  0001 C CNN
+	1    830  1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	830  1815 830  1900
+Wire Wire Line
+	2300 1500 830  1500
+Wire Wire Line
+	830  1500 830  1515
 $EndSCHEMATC
