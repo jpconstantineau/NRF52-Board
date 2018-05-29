@@ -31,6 +31,10 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:E73
+LIBS:keyboard_parts
+LIBS:ProMicro
+LIBS:canadian_parts
 LIBS:EByte_E73-cache
 EELAYER 25 0
 EELAYER END
@@ -573,10 +577,6 @@ Text GLabel 2800 5300 2    60   Input ~ 0
 MISO
 Text GLabel 2800 5200 2    60   Input ~ 0
 SCK
-Text GLabel 1350 4400 0    60   Input ~ 0
-TXD
-Text GLabel 1350 4500 0    60   Input ~ 0
-RXD
 Text GLabel 1350 4800 0    60   Input ~ 0
 SDA
 Text GLabel 1350 4900 0    60   Input ~ 0
@@ -729,4 +729,8 @@ Wire Wire Line
 	2300 1500 830  1500
 Wire Wire Line
 	830  1500 830  1515
+Text Label 1350 4500 0    60   ~ 0
+P0.07
+Text Label 1350 4400 0    60   ~ 0
+P0.17
 $EndSCHEMATC

@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 1)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -352,13 +352,13 @@
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_arc (start 177.8 104.14) (end 177.8 101.6) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 154.94 104.14) (end 152.4 104.14) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 154.94 129.54) (end 154.94 132.08) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 164.94 114.14) (end 152.4 114.14) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 164.94 119.54) (end 164.94 132.08) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 177.8 129.54) (end 180.34 129.54) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 152.4 101.6) (end 180.34 101.6) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 152.4 132.08) (end 152.4 101.6) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 180.34 132.08) (end 152.4 132.08) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 180.34 101.6) (end 180.34 132.08) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 164.9476 101.6) (end 177.8 101.6) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 152.4 119.5324) (end 152.4 114.1476) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 177.8 132.08) (end 164.9476 132.08) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 180.34 104.14) (end 180.34 129.54) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 162.56 128.905) (end 166.37 128.905) (width 1) (layer F.Cu) (net 1))
   (segment (start 166.37 128.905) (end 172.650011 122.624989) (width 1) (layer F.Cu) (net 1))

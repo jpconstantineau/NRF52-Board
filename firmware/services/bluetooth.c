@@ -1360,4 +1360,7 @@ void matrix_init(void)
         nrf_gpio_cfg_output(col_pins[c]); 
     }
 
+}s[c]); 
+    }
+
 }
