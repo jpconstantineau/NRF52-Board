@@ -1,13 +1,16 @@
 BlueMicro Development Kits
 
 **BlueMicro PCBs**
+
 Contact /u/jpconstantineau for availability
 
-V1.0: suitable for the Ergotravel
-V1.1: suitable for any boards that uses the TX/RD arduino lines as GPIOs
+- V1.0: suitable for the Ergotravel
+
+- V1.1: suitable for any boards that uses the TX/RD arduino lines as GPIOs
 
 
 **CR2032 Coin Cell holder:**
+
 Contact /u/jpconstantineau for availability
 
 This is an inexpensive way to power the BlueMicro.  Alternate methods will be to use a LiPo rechargable battery.  The Coin cell holder is designed to fit (with minor adjustments) in the ICP header of the Ergotravel. It also fits on the same header of the Iris. 
@@ -15,6 +18,7 @@ If using it directly in the header, the thickness of the board may need to be a 
 
 
 **NRF52832 Modules:**
+
 Order directly from china on ebay or AliExpress
 
 1 E73-2G4M04S1B Module: [ebay](https://www.ebay.com/itm/CE-FCC-nRF52832-E73-2G4M04S1B-2-4GHz-SMD-Wireless-Module-PCB-IPX-compatiable/192508539795) or [aliexpress](https://www.aliexpress.com/item/CDEBYTE-E73-2G4M04S-BLE-4-2-5-0-long-distance-100m-2-4GHz-SMD-ARM-Core/32820692238.html)
