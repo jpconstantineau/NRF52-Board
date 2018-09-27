@@ -69,5 +69,5 @@
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="services/device_information.h" debugPath="services/device_information.h" selected="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="137" useTextEdit="1" useBinaryEdit="0" left="0" path="../util/nRF5-SDK/nRF5_SDK_15.0.0_a53641a/components/libraries/button/app_button.c" debugPath="../util/nRF5-SDK/nRF5_SDK_15.0.0_a53641a/components/libraries/button/app_button.c" selected="0" top="98" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="NRF52Board_Firmware" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" debugSearchFileMap="" fileDialogInitialDirectory="D:/GIT/NRF52-Board/firmware/services" debugSearchPath="" autoConnectCapabilities="3711"/>
+ <ARMCrossStudioWindow activeProject="NRF52Board_Firmware" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" debugSearchFileMap="" fileDialogInitialDirectory="D:/GIT/NRF52-Board/firmware/services" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>

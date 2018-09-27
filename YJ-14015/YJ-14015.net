@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:/GIT/NRF52-Board/YJ-14015/YJ-14015.sch)
-    (date "2018-05-30 5:27:16 PM")
+    (date "2018-07-20 12:30:15 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -171,14 +171,14 @@
         (pin (num 35) (name P19) (type passive))
         (pin (num 36) (name P20) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical yj-14015)
       (uri D:\GIT\NRF52-Board\Library\schematics\yj-14015.lib))
     (library (logical ProMicro)
       (uri D:\GIT\ErgoTravel\Library\schematics\ProMicro.lib))
     (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib")))
   (nets
     (net (code 1) (name /P20)
       (node (ref J2) (pin 2))
