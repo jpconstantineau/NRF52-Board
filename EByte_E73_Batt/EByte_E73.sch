@@ -509,7 +509,6 @@ Wire Wire Line
 	2850 4700 2650 4700
 Wire Wire Line
 	2750 4600 2650 4600
-NoConn ~ 2650 4400
 Text GLabel 2800 5400 2    60   Input ~ 0
 MOSI
 Text GLabel 2800 5300 2    60   Input ~ 0
@@ -873,79 +872,8 @@ F 3 "" H 9950 2200 50  0001 C CNN
 $EndComp
 Text Label 9950 2100 0    60   ~ 0
 VBatt
-$Comp
-L R R6
-U 1 1 5B15C03B
-P 8550 5150
-F 0 "R6" V 8450 5150 50  0000 C CNN
-F 1 "1K" V 8550 5150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8480 5150 50  0001 C CNN
-F 3 "" H 8550 5150 50  0001 C CNN
-	1    8550 5150
-	0    -1   -1   0   
-$EndComp
-Text GLabel 8300 5150 0    60   Input ~ 0
-RXD
-Text GLabel 8300 5250 0    60   Input ~ 0
-TXD
 Text Label 6400 4900 0    60   ~ 0
 VBus
-$Comp
-L CH340C U4
-U 1 1 5B15E4EB
-P 9350 6150
-F 0 "U4" H 9350 6300 60  0000 C CNN
-F 1 "CH340C" H 9350 6400 60  0000 C CNN
-F 2 "SMD_Packages:SO-16-N" H 9350 6150 60  0001 C CNN
-F 3 "" H 9350 6150 60  0001 C CNN
-	1    9350 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9850 5350 10050 5350
-NoConn ~ 9850 5450
-NoConn ~ 9850 5550
-NoConn ~ 9850 5650
-NoConn ~ 9850 5750
-NoConn ~ 9850 5250
-$Comp
-L GND #PWR021
-U 1 1 5B15E785
-P 8450 5050
-F 0 "#PWR021" H 8450 4800 50  0001 C CNN
-F 1 "GND" H 8450 4900 50  0000 C CNN
-F 2 "" H 8450 5050 50  0001 C CNN
-F 3 "" H 8450 5050 50  0001 C CNN
-	1    8450 5050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9850 5050 10100 5050
-Wire Wire Line
-	8850 5350 8600 5350
-Text Label 10100 5050 0    60   ~ 0
-VBus
-Text Label 8600 5350 0    60   ~ 0
-VBus
-Text Label 10050 5350 0    60   ~ 0
-DTR
-NoConn ~ 9850 5150
-Wire Wire Line
-	8850 5450 8600 5450
-Wire Wire Line
-	8850 5550 8600 5550
-Text Label 8600 5450 0    60   ~ 0
-Data+
-Text Label 8600 5550 0    60   ~ 0
-Data-
-Wire Wire Line
-	8300 5250 8850 5250
-Wire Wire Line
-	8850 5150 8700 5150
-Wire Wire Line
-	8400 5150 8300 5150
-Wire Wire Line
-	8450 5050 8850 5050
 $Comp
 L C C8
 U 1 1 5B15F50A
@@ -972,42 +900,6 @@ Wire Wire Line
 	600  7550 600  7600
 Wire Wire Line
 	600  7250 600  7050
-$Comp
-L C C9
-U 1 1 5B16084D
-P 8600 3400
-F 0 "C9" H 8625 3500 50  0000 L CNN
-F 1 "0.1uF" H 8625 3300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8638 3250 50  0001 C CNN
-F 3 "" H 8600 3400 50  0001 C CNN
-	1    8600 3400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8450 3400 8300 3400
-Text Label 8300 3400 0    60   ~ 0
-DTR
-$Comp
-L JUMPER-SMT_2_NO JP1
-U 1 1 5B160FF4
-P 9250 3100
-F 0 "JP1" H 9150 3200 45  0000 L BNN
-F 1 "JUMPER-SMT_2_NO" H 9150 2950 45  0000 L BNN
-F 2 "E73:SolderJumperSingle" H 9250 3300 20  0001 C CNN
-F 3 "" H 9250 3100 60  0001 C CNN
-F 4 "XXX-00000" H 9250 3350 60  0000 C CNN "PROD_ID"
-	1    9250 3100
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9250 2650 9250 2950
-Wire Wire Line
-	8650 2850 9250 2850
-Connection ~ 9250 2850
-Wire Wire Line
-	8750 3400 9250 3400
-Wire Wire Line
-	9250 3400 9250 3250
 $Comp
 L TP4056 U6
 U 1 1 5B15E4E3
@@ -1040,7 +932,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 5000 6300 5000
 Wire Wire Line
-	6300 5000 6300 5650
+	6300 5650 6300 5000
 Wire Wire Line
 	4800 5650 6650 5650
 Connection ~ 6650 5650
@@ -1128,4 +1020,36 @@ Text Label 7000 2300 0    60   ~ 0
 VBatt
 Text Label 6500 2900 0    60   ~ 0
 P0.31
+$Comp
+L JUMPER-SMT_2_NO JP3
+U 1 1 5B23104A
+P 3750 4000
+F 0 "JP3" H 3650 4100 45  0000 L BNN
+F 1 "JUMPER-SMT_2_NO" H 3650 3850 45  0000 L BNN
+F 2 "E73:SolderJumperSingle" H 3750 4200 20  0001 C CNN
+F 3 "" H 3750 4000 60  0001 C CNN
+F 4 "XXX-00000" H 3750 4250 60  0000 C CNN "PROD_ID"
+	1    3750 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 4000 3100 4000
+Wire Wire Line
+	3100 4000 3100 4400
+Wire Wire Line
+	3100 4400 2650 4400
+Wire Wire Line
+	3900 4000 4250 4000
+Text Label 4250 4000 0    60   ~ 0
+VBatt
+Text Notes 7550 7500 0    60   ~ 0
+BlueMicro V2.0
+Text Notes 8250 7650 0    60   ~ 0
+June 18, 2018
+Text Notes 10650 7650 0    60   ~ 0
+2.0
+Wire Wire Line
+	9250 2650 9250 2850
+Wire Wire Line
+	9250 2850 8650 2850
 $EndSCHEMATC
