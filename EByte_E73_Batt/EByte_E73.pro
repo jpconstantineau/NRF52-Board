@@ -1,4 +1,4 @@
-update=2018-06-18 4:33:58 PM
+update=2018-06-01 9:01:30 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,13 +71,3 @@ LibName39=C:/Program Files/KiCad/share/kicad/library/battery_management
 LibName40=C:/Program Files/KiCad/share/kicad/library/diode
 LibName41=C:/Program Files/KiCad/share/kicad/library/dc-dc
 LibName42=C:/Program Files/KiCad/share/kicad/library/Power_Management
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
