@@ -6,7 +6,7 @@ This Repository is a collection of NRF5x boards.
 
 
 |  Hardware Name     | PCB Folder name     | Processor     | Firmware  | Circuit Diagram | Build Guide |
-| ------------- |:-------------:|:-------------:| -----:| -----:| -----:|
+| ------------- |:-------------:|:-------------:|:-----:|:-----:|:-----:|
 |  LiPo Charger 3.3V Regulator   | [Batt_Charger_Regulator](/Batt_Charger_Regulator) | n/a | n/a | | [Build Guide](/Batt_Charger_Regulator/BuildGuide.md) |
 |  CR2032 Coin Cell Holder | [Battery](/Battery)     | n/a     |   n/a | | |
 |  Mini Switch | [MiniSwitch](/MiniSwitch) |n/a |  n/a | | |
