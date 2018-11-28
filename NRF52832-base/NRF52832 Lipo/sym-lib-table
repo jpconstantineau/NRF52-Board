@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name E73)(type Legacy)(uri C:/GIT/NRF52-Board/Library/schematics/E73.lib)(options "")(descr ""))
+  (lib (name yj-14015)(type Legacy)(uri C:/GIT/NRF52-Board/Library/schematics/yj-14015.lib)(options "")(descr ""))
+  (lib (name ProMicro)(type Legacy)(uri C:/GIT/ErgoTravel/Library/schematics/ProMicro.lib)(options "")(descr ""))
+)

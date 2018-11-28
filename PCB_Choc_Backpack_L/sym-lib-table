@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name ErgoTravel-rescue)(type Legacy)(uri ${KIPRJMOD}/ErgoTravel-rescue.lib)(options "")(descr ""))
+  (lib (name E73)(type Legacy)(uri C:/GIT/NRF52-Board/Library/schematics/E73.lib)(options "")(descr ""))
+  (lib (name ch34x)(type Legacy)(uri C:/GIT/NRF52-Board/Library/schematics/ch34x.lib)(options "")(descr ""))
+  (lib (name USBLC64SC6Y)(type Legacy)(uri C:/GIT/NRF52-Board/Library/schematics/USBLC64SC6Y.lib)(options "")(descr ""))
+)

@@ -590,11 +590,6 @@ Connection ~ 1600 2950
 Wire Wire Line
 	1600 2950 2050 2950
 Wire Wire Line
-	1600 2500 1600 2450
-Wire Wire Line
-	1600 2450 1250 2450
-Connection ~ 1600 2500
-Wire Wire Line
 	2550 2950 2900 2950
 Wire Wire Line
 	9450 800  9450 850 
@@ -1285,28 +1280,6 @@ F 3 "" H 9900 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:R R8
-U 1 1 5BCEC796
-P 9450 2400
-F 0 "R8" V 9530 2400 50  0000 C CNN
-F 1 "10k" V 9450 2400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9380 2400 50  0001 C CNN
-F 3 "" H 9450 2400 50  0001 C CNN
-	1    9450 2400
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VCC #PWR026
-U 1 1 5BCEC79C
-P 9450 2100
-F 0 "#PWR026" H 9450 1950 50  0001 C CNN
-F 1 "VCC" H 9450 2250 50  0000 C CNN
-F 2 "" H 9450 2100 50  0001 C CNN
-F 3 "" H 9450 2100 50  0001 C CNN
-	1    9450 2100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR028
 U 1 1 5BCEC7A2
 P 10450 3000
@@ -1320,15 +1293,6 @@ $EndComp
 Wire Wire Line
 	10450 2700 10450 3000
 Wire Wire Line
-	9450 2100 9450 2150
-Wire Wire Line
-	9450 2650 9450 2700
-Connection ~ 9450 2700
-Wire Wire Line
-	9450 2700 9600 2700
-Wire Wire Line
-	8850 2700 9450 2700
-Wire Wire Line
 	10200 2700 10450 2700
 $Comp
 L E73:SW_PUSH SW5
@@ -1339,28 +1303,6 @@ F 1 "RESET" H 9900 3570 50  0000 C CNN
 F 2 "E73:SW_TACT_ALPS_SKQGABE010" H 9900 3650 60  0001 C CNN
 F 3 "" H 9900 3650 60  0000 C CNN
 	1    9900 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:R R9
-U 1 1 5BCF72D3
-P 9450 3350
-F 0 "R9" V 9530 3350 50  0000 C CNN
-F 1 "10k" V 9450 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9380 3350 50  0001 C CNN
-F 3 "" H 9450 3350 50  0001 C CNN
-	1    9450 3350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VCC #PWR027
-U 1 1 5BCF72D9
-P 9450 3050
-F 0 "#PWR027" H 9450 2900 50  0001 C CNN
-F 1 "VCC" H 9450 3200 50  0000 C CNN
-F 2 "" H 9450 3050 50  0001 C CNN
-F 3 "" H 9450 3050 50  0001 C CNN
-	1    9450 3050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1376,15 +1318,6 @@ F 3 "" H 10450 3950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10450 3650 10450 3950
-Wire Wire Line
-	9450 3050 9450 3100
-Wire Wire Line
-	9450 3600 9450 3650
-Connection ~ 9450 3650
-Wire Wire Line
-	9450 3650 9600 3650
-Wire Wire Line
-	8850 3650 9450 3650
 Wire Wire Line
 	10200 3650 10450 3650
 Text Label 8850 2700 0    50   ~ 0
@@ -1403,28 +1336,6 @@ F 3 "" H 7800 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:R R6
-U 1 1 5BD02C6D
-P 7350 2400
-F 0 "R6" V 7430 2400 50  0000 C CNN
-F 1 "10k" V 7350 2400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7280 2400 50  0001 C CNN
-F 3 "" H 7350 2400 50  0001 C CNN
-	1    7350 2400
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VCC #PWR022
-U 1 1 5BD02C73
-P 7350 2100
-F 0 "#PWR022" H 7350 1950 50  0001 C CNN
-F 1 "VCC" H 7350 2250 50  0000 C CNN
-F 2 "" H 7350 2100 50  0001 C CNN
-F 3 "" H 7350 2100 50  0001 C CNN
-	1    7350 2100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR024
 U 1 1 5BD02C79
 P 8350 3000
@@ -1438,15 +1349,6 @@ $EndComp
 Wire Wire Line
 	8350 2700 8350 3000
 Wire Wire Line
-	7350 2100 7350 2150
-Wire Wire Line
-	7350 2650 7350 2700
-Connection ~ 7350 2700
-Wire Wire Line
-	7350 2700 7500 2700
-Wire Wire Line
-	6750 2700 7350 2700
-Wire Wire Line
 	8100 2700 8350 2700
 $Comp
 L E73:SW_PUSH SW3
@@ -1457,28 +1359,6 @@ F 1 "RESET" H 7800 3570 50  0000 C CNN
 F 2 "E73:SW_TACT_ALPS_SKQGABE010" H 7800 3650 60  0001 C CNN
 F 3 "" H 7800 3650 60  0000 C CNN
 	1    7800 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:R R7
-U 1 1 5BD02C8C
-P 7350 3350
-F 0 "R7" V 7430 3350 50  0000 C CNN
-F 1 "10k" V 7350 3350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7280 3350 50  0001 C CNN
-F 3 "" H 7350 3350 50  0001 C CNN
-	1    7350 3350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VCC #PWR023
-U 1 1 5BD02C92
-P 7350 3050
-F 0 "#PWR023" H 7350 2900 50  0001 C CNN
-F 1 "VCC" H 7350 3200 50  0000 C CNN
-F 2 "" H 7350 3050 50  0001 C CNN
-F 3 "" H 7350 3050 50  0001 C CNN
-	1    7350 3050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1494,15 +1374,6 @@ F 3 "" H 8350 3950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8350 3650 8350 3950
-Wire Wire Line
-	7350 3050 7350 3100
-Wire Wire Line
-	7350 3600 7350 3650
-Connection ~ 7350 3650
-Wire Wire Line
-	7350 3650 7500 3650
-Wire Wire Line
-	6750 3650 7350 3650
 Wire Wire Line
 	8100 3650 8350 3650
 Text Label 6750 2700 0    50   ~ 0
@@ -1554,4 +1425,63 @@ Wire Wire Line
 	5700 3400 5550 3400
 Wire Wire Line
 	5150 3300 4950 3300
+Wire Wire Line
+	1250 2400 1250 2450
+Connection ~ 1250 2400
+Wire Wire Line
+	8850 2700 9600 2700
+Wire Wire Line
+	6750 2700 7500 2700
+Wire Wire Line
+	6750 3650 7500 3650
+Wire Wire Line
+	8850 3650 9600 3650
+$Comp
+L Connector_Generic:Conn_01x01 J7
+U 1 1 5BC1C469
+P 7550 750
+F 0 "J7" H 7630 792 50  0000 L CNN
+F 1 "Conn_01x01" H 7630 701 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 7550 750 50  0001 C CNN
+F 3 "~" H 7550 750 50  0001 C CNN
+	1    7550 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J8
+U 1 1 5BC1C52F
+P 7550 1000
+F 0 "J8" H 7630 1042 50  0000 L CNN
+F 1 "Conn_01x01" H 7630 951 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 7550 1000 50  0001 C CNN
+F 3 "~" H 7550 1000 50  0001 C CNN
+	1    7550 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J9
+U 1 1 5BC1C593
+P 7550 1200
+F 0 "J9" H 7630 1242 50  0000 L CNN
+F 1 "Conn_01x01" H 7630 1151 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 7550 1200 50  0001 C CNN
+F 3 "~" H 7550 1200 50  0001 C CNN
+	1    7550 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J10
+U 1 1 5BC1C5F1
+P 7550 1400
+F 0 "J10" H 7630 1442 50  0000 L CNN
+F 1 "Conn_01x01" H 7630 1351 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 7550 1400 50  0001 C CNN
+F 3 "~" H 7550 1400 50  0001 C CNN
+	1    7550 1400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7350 1400
+NoConn ~ 7350 1200
+NoConn ~ 7350 1000
+NoConn ~ 7350 750 
 $EndSCHEMATC
