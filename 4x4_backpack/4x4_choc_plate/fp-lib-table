@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name E73)(type KiCad)(uri C:/GIT/NRF52-Board/Library/E73.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri C:/GIT/ErgoTravel/Library/footprints.pretty)(options "")(descr ""))
+  (lib (name mech_switches)(type KiCad)(uri C:/GIT/4x4_backpack/library/mech_switches.pretty)(options "")(descr ""))
+  (lib (name keyswitches)(type KiCad)(uri C:/GIT/4x4_backpack/library/keyswitches.pretty)(options "")(descr ""))
+)
