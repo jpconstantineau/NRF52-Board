@@ -1,4 +1,4 @@
-##Preparing Connecting wires to Flash a BlueMicro##
+## Preparing Connecting wires to Flash a BlueMicro ##
 
 
 For purple jlink clone:
