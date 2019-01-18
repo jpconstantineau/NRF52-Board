@@ -1,15 +1,18 @@
 ## Preparing Connecting wires to Flash a BlueMicro ##
 
 
-For purple jlink clone:
+**Preparing a purple Jlink wire bundle**
+
 You will need to connect power to the BlueMicro since the purple jlink does not provide power; it only detects that the BlueMicro receives power...
 
 Swdck -> SWDck
+
 Swdio -> swdio
+
 Gnd -> gnd
+
 VCC -> VCC
 
-**Preparing a purple Jlink wire bundle**
 
 Remove all 1 pin shells from a 4 wire bundle.  For the BlueMicro, this will be a M-F bundle.
 
@@ -25,8 +28,11 @@ We use 2 pin shells because we need to mirror the connections when we flash to l
 **Preparing a Serial Bundle**
 
 For the serial, you need 3 wires
+
 Gnd -> gnd
+
 Rx -> tx
+
 Tx -> Rx.
 
 For serial, 
