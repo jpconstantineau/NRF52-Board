@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:TC2050_adapter-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise J5
-U 1 1 5C9E804A
-P 8800 1550
-F 0 "J5" H 8850 1967 50  0000 C CNN
-F 1 "TC2050_pogo" H 8850 1876 50  0000 C CNN
-F 2 "E73:TC2050_pogo" H 8800 1550 50  0001 C CNN
-F 3 "~" H 8800 1550 50  0001 C CNN
-	1    8800 1550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J2
 U 1 1 5C9E812B
@@ -129,7 +119,7 @@ U 1 1 5C9EF3BD
 P 8800 2600
 F 0 "J7" H 8850 3017 50  0000 C CNN
 F 1 "TC2050_pogo_alignment" H 8850 2926 50  0000 C CNN
-F 2 "E73:TC2050_alignment" H 8800 2600 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical" H 8800 2600 50  0001 C CNN
 F 3 "~" H 8800 2600 50  0001 C CNN
 	1    8800 2600
 	1    0    0    -1  
@@ -140,7 +130,7 @@ U 1 1 5C9EF413
 P 8800 3400
 F 0 "J8" H 8850 3817 50  0000 C CNN
 F 1 "TC2050_pogo" H 8850 3726 50  0000 C CNN
-F 2 "E73:TC2050_pogo" H 8800 3400 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical" H 8800 3400 50  0001 C CNN
 F 3 "~" H 8800 3400 50  0001 C CNN
 	1    8800 3400
 	1    0    0    -1  
@@ -171,7 +161,7 @@ U 1 1 5C9F4EED
 P 7800 3400
 F 0 "J9" H 7850 3817 50  0000 C CNN
 F 1 "TC2050_pogo" H 7850 3726 50  0000 C CNN
-F 2 "E73:TC2050_pogo" H 7800 3400 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical" H 7800 3400 50  0001 C CNN
 F 3 "~" H 7800 3400 50  0001 C CNN
 	1    7800 3400
 	1    0    0    -1  
@@ -187,24 +177,12 @@ NoConn ~ 7600 3300
 NoConn ~ 7600 3200
 NoConn ~ 7600 3500
 $Comp
-L Connector_Generic:Conn_01x01 J10
-U 1 1 5C9F542F
-P 1450 2650
-F 0 "J10" H 1530 2692 50  0000 L CNN
-F 1 "Conn_01x01" H 1530 2601 50  0000 L CNN
-F 2 "E73:mouse-bite-2mm-slot" H 1450 2650 50  0001 C CNN
-F 3 "~" H 1450 2650 50  0001 C CNN
-	1    1450 2650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1250 2650
-$Comp
 L Connector_Generic:Conn_02x05_Counter_Clockwise J11
 U 1 1 5C9F59C3
 P 9700 3400
 F 0 "J11" H 9750 3817 50  0000 C CNN
 F 1 "TC2050_pogo" H 9750 3726 50  0000 C CNN
-F 2 "E73:TC2050_pogo" H 9700 3400 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical" H 9700 3400 50  0001 C CNN
 F 3 "~" H 9700 3400 50  0001 C CNN
 	1    9700 3400
 	1    0    0    -1  
@@ -220,135 +198,14 @@ NoConn ~ 9500 3300
 NoConn ~ 9500 3200
 NoConn ~ 9500 3500
 $Comp
-L Connector_Generic:Conn_01x01 J12
-U 1 1 5C9F6723
-P 1450 2900
-F 0 "J12" H 1530 2942 50  0000 L CNN
-F 1 "Conn_01x01" H 1530 2851 50  0000 L CNN
-F 2 "E73:mouse-bite-2mm-slot" H 1450 2900 50  0001 C CNN
-F 3 "~" H 1450 2900 50  0001 C CNN
-	1    1450 2900
+L Connector_Generic:Conn_02x05_Odd_Even J5
+U 1 1 5DF01131
+P 8800 1550
+F 0 "J5" H 8850 1967 50  0000 C CNN
+F 1 "Cortex Debug 10-pin connector" H 8850 1876 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical" H 8800 1550 50  0001 C CNN
+F 3 "~" H 8800 1550 50  0001 C CNN
+	1    8800 1550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1250 2900
-$Comp
-L Connector_Generic:Conn_01x01 J17
-U 1 1 5C9F6C0D
-P 2400 2650
-F 0 "J17" H 2480 2692 50  0000 L CNN
-F 1 "Conn_01x01" H 2480 2601 50  0000 L CNN
-F 2 "E73:mouse-bite-2mm-slot" H 2400 2650 50  0001 C CNN
-F 3 "~" H 2400 2650 50  0001 C CNN
-	1    2400 2650
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2200 2650
-$Comp
-L Connector_Generic:Conn_01x01 J18
-U 1 1 5C9F6C14
-P 2400 2900
-F 0 "J18" H 2480 2942 50  0000 L CNN
-F 1 "Conn_01x01" H 2480 2851 50  0000 L CNN
-F 2 "E73:mouse-bite-2mm-slot" H 2400 2900 50  0001 C CNN
-F 3 "~" H 2400 2900 50  0001 C CNN
-	1    2400 2900
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2200 2900
-$Comp
-L Connector_Generic:Conn_01x01 J13
-U 1 1 5C9F70F0
-P 1450 3300
-F 0 "J13" H 1530 3342 50  0000 L CNN
-F 1 "Conn_01x01" H 1530 3251 50  0000 L CNN
-F 2 "E73:mouse-bite-2mm-slot" H 1450 3300 50  0001 C CNN
-F 3 "~" H 1450 3300 50  0001 C CNN
-	1    1450 3300
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1250 3300
-$Comp
-L Connector_Generic:Conn_01x01 J14
-U 1 1 5C9F70F7
-P 1450 3550
-F 0 "J14" H 1530 3592 50  0000 L CNN
-F 1 "Conn_01x01" H 1530 3501 50  0000 L CNN
-F 2 "E73:mouse-bite-2mm-slot" H 1450 3550 50  0001 C CNN
-F 3 "~" H 1450 3550 50  0001 C CNN
-	1    1450 3550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1250 3550
-$Comp
-L Connector_Generic:Conn_01x01 J19
-U 1 1 5C9F70FE
-P 2400 3300
-F 0 "J19" H 2480 3342 50  0000 L CNN
-F 1 "Conn_01x01" H 2480 3251 50  0000 L CNN
-F 2 "E73:mouse-bite-2mm-slot" H 2400 3300 50  0001 C CNN
-F 3 "~" H 2400 3300 50  0001 C CNN
-	1    2400 3300
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2200 3300
-$Comp
-L Connector_Generic:Conn_01x01 J20
-U 1 1 5C9F7105
-P 2400 3550
-F 0 "J20" H 2480 3592 50  0000 L CNN
-F 1 "Conn_01x01" H 2480 3501 50  0000 L CNN
-F 2 "E73:mouse-bite-2mm-slot" H 2400 3550 50  0001 C CNN
-F 3 "~" H 2400 3550 50  0001 C CNN
-	1    2400 3550
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2200 3550
-$Comp
-L Connector_Generic:Conn_01x01 J15
-U 1 1 5C9F766D
-P 1450 4000
-F 0 "J15" H 1530 4042 50  0000 L CNN
-F 1 "Conn_01x01" H 1530 3951 50  0000 L CNN
-F 2 "E73:mouse-bite-2mm-slot" H 1450 4000 50  0001 C CNN
-F 3 "~" H 1450 4000 50  0001 C CNN
-	1    1450 4000
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1250 4000
-$Comp
-L Connector_Generic:Conn_01x01 J16
-U 1 1 5C9F7674
-P 1450 4250
-F 0 "J16" H 1530 4292 50  0000 L CNN
-F 1 "Conn_01x01" H 1530 4201 50  0000 L CNN
-F 2 "E73:mouse-bite-2mm-slot" H 1450 4250 50  0001 C CNN
-F 3 "~" H 1450 4250 50  0001 C CNN
-	1    1450 4250
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1250 4250
-$Comp
-L Connector_Generic:Conn_01x01 J21
-U 1 1 5C9F767B
-P 2400 4000
-F 0 "J21" H 2480 4042 50  0000 L CNN
-F 1 "Conn_01x01" H 2480 3951 50  0000 L CNN
-F 2 "E73:mouse-bite-2mm-slot" H 2400 4000 50  0001 C CNN
-F 3 "~" H 2400 4000 50  0001 C CNN
-	1    2400 4000
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2200 4000
-$Comp
-L Connector_Generic:Conn_01x01 J22
-U 1 1 5C9F7682
-P 2400 4250
-F 0 "J22" H 2480 4292 50  0000 L CNN
-F 1 "Conn_01x01" H 2480 4201 50  0000 L CNN
-F 2 "E73:mouse-bite-2mm-slot" H 2400 4250 50  0001 C CNN
-F 3 "~" H 2400 4250 50  0001 C CNN
-	1    2400 4250
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2200 4250
 $EndSCHEMATC
