@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\GIT\\NRF52-Board\\NRF52832-base\\NRF52832 Lipo\\NRF52832 Base.sch")
-    (date "2018-12-17 9:33:55 PM")
+    (date "2019-04-09 5:11:29 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -222,7 +222,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5BEA83DA))
     (comp (ref Q1)
-      (value CJ3139K)
+      (value LP0404N3T5G)
       (footprint Package_DFN_QFN:Diodes_DFN1006-3)
       (datasheet https://lcsc.com/product-detail/MOSFET_P5102FM_C133604.html)
       (libsource (lib Transistor_FET) (part TP0610T) (description "-0.18A Id, -60V Vds, P-Channel MOSFET, SOT-23-3"))
