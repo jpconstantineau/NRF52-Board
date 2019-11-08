@@ -505,18 +505,18 @@ Wire Wire Line
 Connection ~ 800  3750
 Wire Wire Line
 	800  3750 800  4050
-Text Label 1300 1100 0    50   ~ 0
+Text Label 1300 1000 0    50   ~ 0
 P0.03
-Text Label 1300 1200 0    50   ~ 0
+Text Label 1300 1100 0    50   ~ 0
 P0.28
-Text Label 1300 1500 0    50   ~ 0
+Text Label 1300 1200 0    50   ~ 0
 P1.13
-Text Label 1300 1600 0    50   ~ 0
+Text Label 1300 1500 0    50   ~ 0
 P0.02
-Text Label 1300 1700 0    50   ~ 0
+Text Label 1300 1600 0    50   ~ 0
 P0.29
 Text Label 1300 1800 0    50   ~ 0
-P0.30
+P0.26
 Wire Wire Line
 	3650 2550 3850 2550
 $Comp
@@ -555,7 +555,7 @@ L Device:C_Small C17
 U 1 1 5C563701
 P 6250 2550
 F 0 "C17" H 6342 2596 50  0000 L CNN
-F 1 "12pF" H 6342 2505 50  0000 L CNN
+F 1 "22pF" H 6342 2505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6250 2550 50  0001 C CNN
 F 3 "~" H 6250 2550 50  0001 C CNN
 	1    6250 2550
@@ -566,7 +566,7 @@ L Device:C_Small C18
 U 1 1 5C5638CE
 P 6650 2850
 F 0 "C18" H 6742 2896 50  0000 L CNN
-F 1 "12pF" H 6742 2805 50  0000 L CNN
+F 1 "22pF" H 6742 2805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6650 2850 50  0001 C CNN
 F 3 "~" H 6650 2850 50  0001 C CNN
 	1    6650 2850
@@ -605,8 +605,6 @@ Wire Wire Line
 	7550 1600 7350 1600
 Wire Wire Line
 	7550 2100 7350 2100
-Text Label 7350 1600 0    50   ~ 0
-P1.10
 Wire Wire Line
 	7550 3100 7350 3100
 Wire Wire Line
@@ -642,8 +640,6 @@ Wire Wire Line
 Wire Wire Line
 	8900 3100 9150 3100
 Wire Wire Line
-	8900 3300 9150 3300
-Wire Wire Line
 	7550 1700 7350 1700
 Wire Wire Line
 	7550 1800 7350 1800
@@ -655,8 +651,6 @@ Wire Wire Line
 	7550 2300 7350 2300
 Wire Wire Line
 	7550 2400 7350 2400
-Wire Wire Line
-	7550 2600 7350 2600
 Wire Wire Line
 	7550 2800 7350 2800
 Wire Wire Line
@@ -672,20 +666,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 3600 7500 3750
 Wire Wire Line
-	7500 3750 7400 3750
-Wire Wire Line
-	8900 3500 9150 3500
-Wire Wire Line
-	8900 3400 9150 3400
-Wire Wire Line
-	8900 3600 9150 3600
-NoConn ~ 7350 2600
-NoConn ~ 7350 2800
-NoConn ~ 7350 3000
-NoConn ~ 7350 3200
-NoConn ~ 7350 3400
-NoConn ~ 7400 3750
-NoConn ~ 9150 3500
+	8900 3600 9100 3600
 Wire Wire Line
 	3650 900  3850 900 
 Wire Wire Line
@@ -702,8 +683,6 @@ Text Label 7350 1500 0    50   ~ 0
 P1.11
 Text Label 1300 900  0    50   ~ 0
 P1.11
-Text Label 1300 1000 0    50   ~ 0
-P1.10
 Text Label 7350 1700 0    50   ~ 0
 P0.03
 Text Label 7350 1800 0    50   ~ 0
@@ -823,7 +802,6 @@ Text Label 9150 2800 0    50   ~ 0
 Data+
 Text GLabel 9150 3300 2    50   Input ~ 0
 RESET
-NoConn ~ 9150 3400
 $Comp
 L power:VCC #PWR0105
 U 1 1 5C6B39D3
@@ -847,17 +825,17 @@ Text Label 1750 7000 0    50   ~ 0
 P0.31
 Text Label 7350 2300 0    50   ~ 0
 P0.31
-Text Label 1300 2000 0    50   ~ 0
-P0.05
 Text Label 1300 2100 0    50   ~ 0
-P1.09
+P0.05
+Text Label 1300 2200 0    50   ~ 0
+P0.08
 Text Label 9150 2600 0    50   ~ 0
 P0.13
-Text Label 1300 2200 0    50   ~ 0
-P0.13
+Text Label 1300 2300 0    50   ~ 0
+P1.09
 Text Label 9150 2400 0    50   ~ 0
 P0.24
-Text Label 1300 2300 0    50   ~ 0
+Text Label 3700 2850 0    50   ~ 0
 P0.24
 $Comp
 L Connector_Generic:Conn_02x05_Counter_Clockwise J10
@@ -1289,33 +1267,28 @@ Text Label 9150 1700 0    50   ~ 0
 P1.06
 Text Label 9150 1800 0    50   ~ 0
 P0.09
-Text Label 9150 1900 0    50   ~ 0
-P1.04
-Text Label 3750 2850 0    50   ~ 0
-P1.04
+Text Label 1300 2850 0    50   ~ 0
+P0.17
 Text Label 3750 2750 0    50   ~ 0
 P0.09
 Text Label 3750 2650 0    50   ~ 0
 P1.06
 Text Label 3750 2550 0    50   ~ 0
 P0.10
-NoConn ~ 9150 2300
 Text Label 9150 2500 0    50   ~ 0
 P0.22
 Text Label 9150 2700 0    50   ~ 0
 P0.20
 Text Label 9150 2900 0    50   ~ 0
 P0.17
-Text Label 9150 3100 0    50   ~ 0
-P0.15
-Text Label 3700 1950 0    50   ~ 0
+Text Label 1300 2550 0    50   ~ 0
 P0.22
-Text Label 3700 2050 0    50   ~ 0
+Text Label 1300 2750 0    50   ~ 0
 P0.20
-Text Label 3700 2150 0    50   ~ 0
+Text Label 2850 2400 0    50   ~ 0
 P0.17
-Text Label 3700 2250 0    50   ~ 0
-P0.15
+Text Label 1300 2650 0    50   ~ 0
+P0.13
 $Comp
 L LED:WS2812B D3
 U 1 1 5C99A069
@@ -1327,8 +1300,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5950 725 50  0001 L
 	1    5850 1100
 	1    0    0    -1  
 $EndComp
-Text Label 9150 2100 0    50   ~ 0
-P1.02
 Wire Wire Line
 	5550 1100 5300 1100
 $Comp
@@ -1354,8 +1325,6 @@ F 3 "" H 5850 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6150 1100
-Text Label 5300 1100 0    50   ~ 0
-P1.02
 Wire Wire Line
 	5850 1400 5850 1450
 Wire Wire Line
@@ -1383,4 +1352,149 @@ Wire Wire Line
 Connection ~ 5850 750 
 Wire Wire Line
 	5850 750  5850 700 
+Wire Wire Line
+	7550 2600 7350 2600
+$Comp
+L Device:L L1
+U 1 1 5DCB893F
+P 9650 3600
+F 0 "L1" H 9703 3646 50  0000 L CNN
+F 1 "DNP" H 9703 3555 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9650 3600 50  0001 C CNN
+F 3 "~" H 9650 3600 50  0001 C CNN
+	1    9650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5DCB89F9
+P 9500 3800
+F 0 "#PWR0110" H 9500 3550 50  0001 C CNN
+F 1 "GND" H 9505 3627 50  0000 C CNN
+F 2 "" H 9500 3800 50  0001 C CNN
+F 3 "" H 9500 3800 50  0001 C CNN
+	1    9500 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 3400 9650 3450
+Wire Wire Line
+	8900 3400 9650 3400
+Wire Wire Line
+	8900 3300 9150 3300
+Wire Wire Line
+	9500 3500 9500 3800
+Wire Wire Line
+	8900 3500 9500 3500
+Text GLabel 9150 1900 2    50   Input ~ 0
+RED_LED
+Text GLabel 9150 2100 2    50   Input ~ 0
+DFU
+Text GLabel 9150 2300 2    50   Input ~ 0
+SWO
+Text GLabel 7350 1600 0    50   Input ~ 0
+BLUE_LED
+Text Label 7350 2600 0    50   ~ 0
+P0.26
+Text Label 7350 2800 0    50   ~ 0
+P0.06
+Wire Wire Line
+	9650 3750 9100 3750
+Wire Wire Line
+	9100 3750 9100 3600
+Connection ~ 9100 3600
+Wire Wire Line
+	9100 3600 9150 3600
+Text Label 7350 3000 0    50   ~ 0
+P0.08
+Text Label 7350 3200 0    50   ~ 0
+P0.04
+Text Label 7350 3400 0    50   ~ 0
+P0.12
+Text Label 7500 3750 0    50   ~ 0
+P0.07
+$Comp
+L Device:R R9
+U 1 1 5DE13F64
+P 5150 5050
+F 0 "R9" H 5220 5096 50  0000 L CNN
+F 1 "1k" H 5220 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5080 5050 50  0001 C CNN
+F 3 "~" H 5150 5050 50  0001 C CNN
+	1    5150 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5DE14064
+P 5700 5050
+F 0 "R10" H 5770 5096 50  0000 L CNN
+F 1 "1k" H 5770 5005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5630 5050 50  0001 C CNN
+F 3 "~" H 5700 5050 50  0001 C CNN
+	1    5700 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5DE140EC
+P 5400 5300
+F 0 "#PWR0111" H 5400 5050 50  0001 C CNN
+F 1 "GND" H 5405 5127 50  0000 C CNN
+F 2 "" H 5400 5300 50  0001 C CNN
+F 3 "" H 5400 5300 50  0001 C CNN
+	1    5400 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5DE14363
+P 5150 4600
+F 0 "D4" H 5141 4816 50  0000 C CNN
+F 1 "LED" H 5141 4725 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5150 4600 50  0001 C CNN
+F 3 "~" H 5150 4600 50  0001 C CNN
+	1    5150 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 5DE2EF8F
+P 5700 4600
+F 0 "D5" H 5691 4816 50  0000 C CNN
+F 1 "LED" H 5691 4725 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5700 4600 50  0001 C CNN
+F 3 "~" H 5700 4600 50  0001 C CNN
+	1    5700 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5150 5200 5150 5300
+Wire Wire Line
+	5150 5300 5400 5300
+Wire Wire Line
+	5700 5200 5700 5300
+Wire Wire Line
+	5700 5300 5400 5300
+Connection ~ 5400 5300
+Wire Wire Line
+	5700 4900 5700 4750
+Wire Wire Line
+	5150 4900 5150 4750
+Text GLabel 5150 4200 1    50   Input ~ 0
+BLUE_LED
+Text GLabel 5700 4150 1    50   Input ~ 0
+RED_LED
+Wire Wire Line
+	5700 4450 5700 4150
+Wire Wire Line
+	5150 4200 5150 4450
+Text GLabel 5300 1100 0    50   Input ~ 0
+WS2812
+Text Label 1300 1700 0    50   ~ 0
+P0.30
+Text Label 1300 2000 0    50   ~ 0
+P0.06
+Text GLabel 9150 3100 2    50   Input ~ 0
+WS2812
 $EndSCHEMATC
