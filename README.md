@@ -2,7 +2,7 @@
 
 This Repository is a collection of NRF5x boards.
 
-
+TODO: remap folders...
 
 
 |  Hardware Name     | PCB Folder name     | Processor     | Firmware  | Circuit Diagram | Build Guide |
