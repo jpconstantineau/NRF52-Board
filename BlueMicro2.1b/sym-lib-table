@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name EByte_E73-rescue)(type Legacy)(uri ${KIPRJMOD}/EByte_E73-rescue.lib)(options "")(descr ""))
+  (lib (name yj-14015)(type Legacy)(uri C:/GIT/NRF52-Board/Library/schematics/yj-14015.lib)(options "")(descr ""))
+)

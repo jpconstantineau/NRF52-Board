@@ -15,4 +15,10 @@ D Normally open jumper This jumper has two pads in close proximity to each other
 K PROD_ID:XXX-00000
 $ENDCMP
 #
+$CMP SK6812-EC1515
+D RGB LED with integrated controller
+K RGB LED NeoPixel Mini addressable
+F https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf
+$ENDCMP
+#
 #End Doc Library
