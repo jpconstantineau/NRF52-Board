@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC
+"DIODE","D1,D3,D4,D2,D8,D7,D6,D5,D9,D10,D11,D12,D14,D13,D15,D16","footprints:D_SOD123_axial-dual",""
+"Conn_01x04","J1,J2,J3,J4,J5,J6,J7,J8","Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",""
+"Conn_01x01","J11,J12,J13,J14,J15,J16","MountingHole:MountingHole_2.2mm_M2_ISO7380",""
+"CHERRY_MX","S1,S5,S10,S13,S2,S3,S4,S6,S7,S8,S11,S9,S12,S14,S15,S16","footprints:MX-Alps-Choc-1U",""
