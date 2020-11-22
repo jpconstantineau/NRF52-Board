@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Built for Arduino',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/42/Arduino_Uno_logo.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      By leveraging Arduino's tooling, troubleshooting the hardware is never difficult.  You can start troubleshooting very quickly with a simple blink program to flash a LED.  Or you can go as complex as programming your own firmware customizations.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Leverages the work of Leaders in the Maker Community',
+    imageUrl: 'http://blog.tindie.com/wp-content/uploads/2014/09/adafruit-logo.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Adafruit has been making electronics easy and fun to learn for more than a decade.  The Adafruit Feather nRF52832 was the first board that made BLE available to anyone who would want to build their own BLE devices, including keyboards.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Powered by Nordic\'s nRF52832 and nRF52840 System on Chip',
+    imageUrl: 'https://www.nordicsemi.com/-/media/Images/Logos/LogoTransRGBVerticalWhiteSquare.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        The nRF52 chips are the most successful BLE SoC family in the Maker Community.  The nRF52832 and nRF52840 are both powerful with an 32-bit ARM® Cortex™-M4 CPU running at 64 MHz.  Both use the Nordic SoftDevices: Bluetooth protocol stacks that are pre-compiled binaries and BLE qualified when delivered, they are unaffected by the ‘develop and compile’ cycle of application development and always remain stable.
       </>
     ),
   },

@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'nRF52 Hardware Documentation',
+  tagline: 'Home of the nRF52 BlueMicro Hardware',
   url: 'http://nrf52.jpconstantineau.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -13,7 +13,7 @@ module.exports = {
       title: 'BlueMicro nRF52 Boards and Hardware',
       logo: {
         alt: 'BlueMicro Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -37,11 +37,11 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Getting Started',
+              label: 'BlueMicro Hardware',
               to: 'docs/',
             },
             {
-              label: 'Second Doc',
+              label: 'BLE Macropads',
               to: 'docs/doc2/',
             },
           ],
@@ -67,7 +67,7 @@ module.exports = {
               to: 'blog',
             },
             {
-              label: 'GitHub',
+              label: 'Firmware on GitHub',
               href: 'https://github.com/jpconstantineau/BlueMicro_BLE',
             },
           ],
