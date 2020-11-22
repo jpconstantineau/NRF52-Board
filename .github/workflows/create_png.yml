@@ -27,6 +27,6 @@ jobs:
      
       - name: Generate Artifacts
         run: |
-          python plot_board.py ${{ matrix.pcb }}
-          python plot_gerbers.py ${{ matrix.pcb }}
+          python kicadScripts/plot_board.py ${{ matrix.pcb }}
+          python kicadScripts/plot_gerbers.py ${{ matrix.pcb }}
           ls -lR 
