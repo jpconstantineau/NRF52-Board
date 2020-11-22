@@ -1,0 +1,32 @@
+
+name: Test examples
+
+on: [pull_request, push]
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        pcb: ['BlueMacro840/BlueMacro.kicad_pcb']
+
+    runs-on: ubuntu-latest
+    
+    steps:    
+      # First of all, we clone the repo using the checkout action.
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.8'
+      - name: get tools
+        run: |
+          git clone https://github.com/gregdavill/kicadScripts.git
+          ls -lR 
+     
+      - name: Generate Artifacts
+        run: |
+          python plot_board.py ${{ matrix.pcb }}
+          python plot_gerbers.py ${{ matrix.pcb }}
+          ls -lR 
