@@ -1,6 +1,7 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    BlueMicro Boards: ['bluemicro_v1', 'bluemicro_v2_0','bluemicro_v2_1'],
+    BlueMacro Boards: ['bluemacro_v1'],
+    Macropads: ['4x4macropad'],
   },
 };
