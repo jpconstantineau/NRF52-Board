@@ -42,7 +42,7 @@ module.exports = {
             },
             {
               label: 'BLE Macropads',
-              to: 'docs/doc2/',
+              to: 'docs/macropad/',
             },
           ],
         },

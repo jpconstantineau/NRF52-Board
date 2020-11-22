@@ -7,4 +7,4 @@ title: 4x4 Macropad
 
 ## Schematic
 
-![img](../static/img/schematic_4x4macropad.png)
+![img](../../static/img/schematic_4x4macropad.png)
