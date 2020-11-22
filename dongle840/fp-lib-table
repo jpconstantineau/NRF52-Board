@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name nrfmicro)(type KiCad)(uri ${KIPRJMOD}/nrfmicro.pretty)(options "")(descr ""))
-  (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/Type-C.pretty)(options "")(descr ""))
-)
