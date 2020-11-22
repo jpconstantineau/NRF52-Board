@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\GIT\NRF52-Board\BlueMacro\BlueMacro\BlueMacro.sch</source>
-    <date>2020-04-28 12:25:04 AM</date>
+    <source>C:\GIT\NRF52-Board\BlueMacro840\BlueMacro.sch</source>
+    <date>2020-09-24 4:09:31 PM</date>
     <tool>Eeschema (5.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
+        <title>BlueMacro840</title>
         <company/>
-        <rev/>
+        <rev>0.1</rev>
         <date/>
         <source>BlueMacro.sch</source>
         <comment number="1" value=""/>
@@ -34,7 +34,7 @@
       <tstamp>5EA730B3</tstamp>
     </comp>
     <comp ref="U3">
-      <value>AP2112K-3.3</value>
+      <value>AP2112K-3.3TRG1</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <fields>
         <field name="LCSC">C51118</field>
@@ -73,10 +73,10 @@
     </comp>
     <comp ref="R4">
       <value>806k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C29263</field>
+        <field name="LCSC">C23250</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -84,10 +84,10 @@
     </comp>
     <comp ref="R5">
       <value>2M</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C11512</field>
+        <field name="LCSC">C22976</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -95,10 +95,10 @@
     </comp>
     <comp ref="C6">
       <value>1nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C1523</field>
+        <field name="LCSC">C1588</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -117,10 +117,10 @@
     </comp>
     <comp ref="C3">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C15525</field>
+        <field name="LCSC">C19702</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -128,10 +128,10 @@
     </comp>
     <comp ref="R1">
       <value>100k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C25741</field>
+        <field name="LCSC">C25803</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -139,10 +139,10 @@
     </comp>
     <comp ref="C5">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C15525</field>
+        <field name="LCSC">C19702</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -150,10 +150,10 @@
     </comp>
     <comp ref="R2">
       <value>10k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C25744</field>
+        <field name="LCSC">C25804</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -161,21 +161,21 @@
     </comp>
     <comp ref="R3">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C11702</field>
+        <field name="LCSC">C21190</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EA7A1F0</tstamp>
     </comp>
     <comp ref="D2">
-      <value>16-213/GHC-YR1S1/3T</value>
-      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <value>19-217/GHC-YR1S2/3T</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C74338</field>
+        <field name="LCSC">C72043</field>
       </fields>
       <libsource lib="Device" part="LED" description="LED generic"/>
       <sheetpath names="/" tstamps="/"/>
@@ -183,10 +183,10 @@
     </comp>
     <comp ref="C4">
       <value>10uF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C15525</field>
+        <field name="LCSC">C19702</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -194,10 +194,10 @@
     </comp>
     <comp ref="R6">
       <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C25905</field>
+        <field name="LCSC">C23186</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -205,21 +205,21 @@
     </comp>
     <comp ref="R9">
       <value>5.1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C25905</field>
+        <field name="LCSC">C23186</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EA860E6</tstamp>
     </comp>
     <comp ref="D3">
-      <value>16-213SURC/S530-A4/TR8</value>
-      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <value>KT-0603R</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C74339</field>
+        <field name="LCSC">C2286</field>
       </fields>
       <libsource lib="Device" part="LED" description="LED generic"/>
       <sheetpath names="/" tstamps="/"/>
@@ -227,10 +227,10 @@
     </comp>
     <comp ref="R7">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C11702</field>
+        <field name="LCSC">C21190</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -238,21 +238,21 @@
     </comp>
     <comp ref="R8">
       <value>1k</value>
-      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C11702</field>
+        <field name="LCSC">C21190</field>
       </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EA8F5AC</tstamp>
     </comp>
     <comp ref="D4">
-      <value>FC-F1005BK-470G5</value>
-      <footprint>LED_SMD:LED_0402_1005Metric</footprint>
+      <value>19-217/BHC-ZL1M2RY/3T</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C130724</field>
+        <field name="LCSC">C72041</field>
       </fields>
       <libsource lib="Device" part="LED" description="LED generic"/>
       <sheetpath names="/" tstamps="/"/>
@@ -260,10 +260,10 @@
     </comp>
     <comp ref="C1">
       <value>22pF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C1555</field>
+        <field name="LCSC">C1653</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -271,10 +271,10 @@
     </comp>
     <comp ref="C2">
       <value>22pF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C1555</field>
+        <field name="LCSC">C1653</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
@@ -340,7 +340,7 @@
       <tstamp>5EC2C9E9</tstamp>
     </comp>
     <comp ref="U5">
-      <value>AP2112K-3.3</value>
+      <value>AP2112K-3.3TRG1</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
       <fields>
         <field name="LCSC">C51118</field>
@@ -686,7 +686,7 @@
       <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
     </library>
     <library logical="yj-14015">
-      <uri>C:\GIT\NRF52-Board\Library\schematics\yj-14015.lib</uri>
+      <uri>C:/GIT/NRF52-Board/Library/schematics/yj-14015.lib</uri>
     </library>
   </libraries>
   <nets>
