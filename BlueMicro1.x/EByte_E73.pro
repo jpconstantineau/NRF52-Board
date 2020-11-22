@@ -1,4 +1,4 @@
-update=2018-03-31 6:39:39 PM
+update=2020-11-22 11:51:54 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,13 @@ LibName33=D:/GIT/NRF52-Board/Library/schematics/E73
 LibName34=D:/GIT/ErgoTravel/Library/schematics/keyboard_parts
 LibName35=D:/GIT/ErgoTravel/Library/schematics/ProMicro
 LibName36=D:/GIT/ErgoTravel/Library/schematics/canadian_parts
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
