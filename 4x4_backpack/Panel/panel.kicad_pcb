@@ -5044,7 +5044,6 @@
   (via (at 103.1505 86.657) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 5ED3441B))
   (via (at 112.2945 86.53) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 5ED34442))
   (via (at 46.826 68.3055) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 5ED343FD))
-  (via (at 89.8155 88.8795) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 11) (tstamp 5ED34433))
   (via (at 84.7355 88.8795) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 5ED34427))
   (via (at 87.6565 108.247) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 5ED3444B))
   (via (at 46.826 40.302) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 5ED343EE))
@@ -5053,7 +5052,6 @@
   (via (at 57.113 67.6705) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 5ED34457))
   (via (at 44.9845 63.162) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 5ED343F7))
   (via (at 73.75 88.816) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 5ED34418))
-  (via (at 77.56 88.816) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 21) (tstamp 5ED3443F))
   (via (at 47.08 105.326) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 5ED3444E))
   (via (at 108.6115 100.4365) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 5ED3443C))
   (via (at 112.8025 105.453) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 1) (tstamp 5ED34412))
@@ -5346,6 +5344,7 @@
   (via (at 176.753 49.319) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 10) (tstamp 5ED31F4C))
   (segment (start 176.626 49.446) (end 176.753 49.319) (width 0.25) (layer B.Cu) (net 10) (tstamp 5ED320E4))
   (segment (start 177.891 50.457) (end 177.152999 49.718999) (width 0.25) (layer F.Cu) (net 10) (tstamp 5ED320E1))
+  (via (at 89.8155 88.8795) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 11) (tstamp 5ED34433))
   (segment (start 132.439 50.716) (end 132.43 50.725) (width 0.25) (layer F.Cu) (net 11) (tstamp 5ED32342) (status 30))
   (segment (start 137.764 50.716) (end 132.439 50.716) (width 0.25) (layer F.Cu) (net 11) (tstamp 5ED323C3) (status 30))
   (segment (start 136.239999 82.991999) (end 136.306 83.058) (width 0.25) (layer F.Cu) (net 12) (tstamp 5ED3223D) (status 30))
@@ -5482,6 +5481,7 @@
   (segment (start 143.790685 52.747994) (end 143.225 52.747994) (width 0.25) (layer B.Cu) (net 20) (tstamp 5ED326ED))
   (segment (start 191.294506 52.747994) (end 143.790685 52.747994) (width 0.25) (layer B.Cu) (net 20) (tstamp 5ED326E4))
   (segment (start 142.659315 52.747994) (end 143.225 52.747994) (width 0.25) (layer B.Cu) (net 20) (tstamp 5ED326DB))
+  (via (at 77.56 88.816) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 21) (tstamp 5ED3443F))
   (segment (start 100.42 49.79) (end 97.88 49.79) (width 0.25) (layer B.Cu) (net 21) (tstamp 5ED34D51) (status 30))
   (segment (start 61.849999 50.589999) (end 61.05 49.79) (width 0.25) (layer B.Cu) (net 21) (tstamp 5ED34CD3) (status 30))
   (segment (start 61.05 48.59) (end 61.05 50.09) (width 0.25) (layer B.Cu) (net 21) (tstamp 5ED34D3F) (status 30))
@@ -7298,10 +7298,9 @@
     )
     (filled_polygon
       (pts
-        (xy 96.43256 88.69) (xy 96.481843 88.937765) (xy 96.622191 89.147809) (xy 96.832235 89.288157) (xy 97.08 89.33744)
-        (xy 98.68 89.33744) (xy 98.927765 89.288157) (xy 99.137809 89.147809) (xy 99.15 89.129564) (xy 99.162191 89.147809)
-        (xy 99.372235 89.288157) (xy 99.62 89.33744) (xy 100.082761 89.33744) (xy 100.030701 89.3895) (xy 95.731453 89.3895)
-        (xy 95.88 89.030874) (xy 95.88 88.65) (xy 96.43256 88.65)
+        (xy 74.76 89.030874) (xy 74.908547 89.3895) (xy 61.4393 89.3895) (xy 61.38724 89.33744) (xy 61.85 89.33744)
+        (xy 62.097765 89.288157) (xy 62.307809 89.147809) (xy 62.448157 88.937765) (xy 62.49744 88.69) (xy 62.49744 88.65)
+        (xy 74.76 88.65)
       )
     )
     (filled_polygon
@@ -7314,9 +7313,10 @@
     )
     (filled_polygon
       (pts
-        (xy 74.76 89.030874) (xy 74.908547 89.3895) (xy 61.4393 89.3895) (xy 61.38724 89.33744) (xy 61.85 89.33744)
-        (xy 62.097765 89.288157) (xy 62.307809 89.147809) (xy 62.448157 88.937765) (xy 62.49744 88.69) (xy 62.49744 88.65)
-        (xy 74.76 88.65)
+        (xy 96.43256 88.69) (xy 96.481843 88.937765) (xy 96.622191 89.147809) (xy 96.832235 89.288157) (xy 97.08 89.33744)
+        (xy 98.68 89.33744) (xy 98.927765 89.288157) (xy 99.137809 89.147809) (xy 99.15 89.129564) (xy 99.162191 89.147809)
+        (xy 99.372235 89.288157) (xy 99.62 89.33744) (xy 100.082761 89.33744) (xy 100.030701 89.3895) (xy 95.731453 89.3895)
+        (xy 95.88 89.030874) (xy 95.88 88.65) (xy 96.43256 88.65)
       )
     )
     (filled_polygon
