@@ -4,6 +4,8 @@ title: BlueMacro840 V1.x
 ---
 
 ## Pinout
+![img](../static/img/pinout_bluemacrov1.0.svg)
+
 
 ## PCB
 | Top  | Bottom  |
