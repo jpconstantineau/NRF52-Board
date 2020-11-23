@@ -13,7 +13,7 @@ The 4x4 Macropad design was inspired from the 4x4 macropad from [40 percent club
 ## PCB
 | Top  | Bottom  |
 |---|---|
-| <img src="../../static/img/pcb_top_4x4macropad.svg" width="400" />   | <img src="../../static/img/pcb_bottom_4x4macropad.svg" width="400" />  |
+| <img src="http://nrf52.jpconstantineau.com/img/pcb_top_4x4macropad.svg" width="400" />   | <img src="http://nrf52.jpconstantineau.com/img/pcb_bottom_4x4macropad.svg" width="400" />  |
 
 ## Schematic
 
