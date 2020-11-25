@@ -20,6 +20,6 @@ title: BlueMacro840 V1.x
 
 ## Building it yourself?
 
-You need to order the parts included in this [csv BOM](../static/bom/BlueMacro840/BlueMacro840.csv).  You can it load in Excel.  The LCSC column refers to the part number at [LCSC.com](https://lcsc.com/).
+You need to order the parts included in this [csv BOM](http://nrf52.jpconstantineau.com/bom/BlueMacro840/BlueMacro840.csv).  You can it load in Excel.  The LCSC column refers to the part number at [LCSC.com](https://lcsc.com/).
 
-If you are assembling the BlueMicro840 yourself, refer to the [HTML Bom](../static/bom/BlueMacro840/ibom.html) to help you as you assemble it.
+If you are assembling the BlueMicro840 yourself, refer to the [HTML Bom](http://nrf52.jpconstantineau.com/bom/BlueMacro840/ibom.html) to help you as you assemble it.
