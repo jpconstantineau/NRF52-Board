@@ -13,7 +13,8 @@ module.exports = {
       title: 'BlueMicro nRF52 Boards and Hardware',
       logo: {
         alt: 'BlueMicro Logo',
-        src: '/img/logo.png',
+        src: 'img/logo.png',
+        srcDark: 'img/logo.png',
       },
       items: [
         {
