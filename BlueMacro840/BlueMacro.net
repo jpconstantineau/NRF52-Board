@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\GIT\NRF52-Board\BlueMacro840\BlueMacro.sch)
-    (date "2020-09-24 4:10:37 PM")
+    (date "2020-11-24 10:18:30 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -55,6 +55,8 @@
       (value USB_C_Receptacle)
       (footprint footprints:HRO-TYPE-C-31-M-12-C165948)
       (datasheet http://www.usb.org/developers/docs/usb_31_033017.zip)
+      (fields
+        (field (name LCSC) C165948))
       (libsource (lib Connector) (part USB_C_Receptacle) (description "USB Type-C Receptacle connector"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5EA736CB))
@@ -242,6 +244,8 @@
       (value L)
       (footprint Inductor_SMD:L_0805_2012Metric)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C1046))
       (libsource (lib Device) (part L) (description Inductor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5EB662A2))

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\GIT\NRF52-Board\BlueMicro840\BlueMicro840.sch)
-    (date "2020-08-26 9:34:30 AM")
+    (date "2020-11-24 10:02:11 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -101,6 +101,8 @@
       (value DNP)
       (footprint Inductor_SMD:L_0805_2012Metric)
       (datasheet ~)
+      (fields
+        (field (name LCSC) C1046))
       (libsource (lib Device) (part L) (description Inductor))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C809AAB))
@@ -275,6 +277,8 @@
     (comp (ref J3)
       (value DNP)
       (footprint footprints:HRO-TYPE-C-31-M-12-C165948)
+      (fields
+        (field (name LCSC) C165948))
       (libsource (lib "") (part USB_C_Receptacle_USB2.0-Connector) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5E93683A))
@@ -600,7 +604,7 @@
     (net (code 3) (name "Net-(R2-Pad1)")
       (node (ref U4) (pin 5))
       (node (ref R2) (pin 1)))
-    (net (code 4) (name DFU)
+    (net (code 4) (name 1.02)
       (node (ref TP1) (pin 1))
       (node (ref U5) (pin 38)))
     (net (code 5) (name BLUE_LED)

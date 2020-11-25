@@ -449,6 +449,7 @@ F 0 "L1" H 3503 3196 50  0000 L CNN
 F 1 "DNP" H 3503 3105 50  0000 L CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" H 3450 3150 50  0001 C CNN
 F 3 "~" H 3450 3150 50  0001 C CNN
+F 4 "C1046" H 3450 3150 50  0001 C CNN "LCSC"
 	1    3450 3150
 	1    0    0    -1  
 $EndComp
@@ -670,7 +671,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 7350 4500 7400
 Text GLabel 3300 1650 2    60   Input ~ 0
-DFU
+1.02
 Wire Wire Line
 	3000 1650 3300 1650
 Text GLabel 2700 4400 0    60   Input ~ 0
@@ -711,7 +712,7 @@ F 4 "C72041" H 2850 4400 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 Text GLabel 1350 4100 0    60   Input ~ 0
-DFU
+1.02
 Wire Wire Line
 	2000 6300 2000 6250
 Wire Wire Line
@@ -1039,6 +1040,7 @@ F 0 "J3" H 7655 6417 50  0000 C CNN
 F 1 "DNP" H 7655 6326 50  0000 C CNN
 F 2 "footprints:HRO-TYPE-C-31-M-12-C165948" H 7700 5550 50  0001 C CNN
 F 3 "" H 7700 5550 50  0001 C CNN
+F 4 "C165948" H 7550 5550 50  0001 C CNN "LCSC"
 	1    7550 5550
 	1    0    0    -1  
 $EndComp
