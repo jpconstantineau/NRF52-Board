@@ -57,6 +57,69 @@ You can obtain the above bootloaders from the following locations:
 
 You need to order the parts included in this [csv BOM](https://raw.githubusercontent.com/jpconstantineau/NRF52-Board/master/BlueMicro840/BlueMicro840.csv).  You can it load in Excel.  The LCSC column refers to the part number at [LCSC.com](https://lcsc.com/).
 
-If you are assembling the BlueMicro840 yourself, refer to the [HTML Bom](http://nrf52.jpconstantineau.com/bom/BlueMicro840/ibom.html) to help you as you assemble it.
 
+### Small Components
+
+If you are assembling the BlueMicro840 yourself, refer to the [HTML Bom](http://nrf52.jpconstantineau.com/bom/BlueMicro840/ibom.html) to help you as you assemble it. If you have received the partially assembled boards, you will have all these components already installed and you can move on to the next section.
+
+### USB-C Connector
+
+Steps to solder the TYPE-C-31-M-12 from Korean Hroparts Elec onto a PCB using only a Soldering Iron:
+1 - using a no-clean rosin fluxed Solder, pre-apply some solder to the pads, making sure you don't have large "blobs" or joints between pads.
+2 - place the connector on top, making sure to align it properly.
+3 - apply heat to the connector pins.  This will solder the pins in place.
+4 - once soldered, move on to the body of the connector, starting with one of the larger pegs.
+5 - Once the 4 metal body pegs are soldered, pass again over the connector pins; making sure that no solder bridges two pins.
+
+<figure class="video-container">
+ <iframe src="//www.youtube.com/embed/PbO9HdlcIPY" frameborder="0" allowfullscreen width="100%"></iframe>
+ </figure>
+
+Tools I use for soldering the connector:
+
+* TS 100 Soldering Iron with 19V power supply (300C setting)
+* TS-D24 Soldering Tip. This is the Chisel Tip one.
+* Copper Cleaning Ball for Soldering Iron (ball of copper wool in a metal container)
+* MG Chemicals 63/37 No Clean Leaded Solder, 0.032" Diameter
+
+Once you have soldered the connectors on, you will need to test if there are any shorts between VUsb and GND. These are the outermost pins on each side of the connector.  Because VUsb is not available on the pins, I use a USB tester.  You can test it using a multimeter on the continuity testing function.
+
+<figure class="video-container">
+ <iframe src="//www.youtube.com/embed/2jEpu-We5eI" frameborder="0" allowfullscreen width="100%"></iframe>
+ </figure>
+
+Tools I use for testing  the connector:
+* [USB Tester](https://s.click.aliexpress.com/e/_AaXAiW)
+* [25cm USB-C Cable](https://s.click.aliexpress.com/e/_Aot7Zo)
+* Old phone charger
+
+### E73 Module
+
+With the hidden pads underneath the module, soldering it to a PCB using just a soldering iron isn't a trivial task.
+
+Steps:
+1 - Add a bead of solder to the inner pads of the E73 module.  Make sure that they are not too large and are all the same size
+2 - line-up the beads with the holes matching these pads in the PCB.  Since the beads will "fall into" the holes they will "fall in place" somewhat.  A binder clip will help hold everything together
+3 - heat-up the inner pads on the opposite side of the PCB, distributing the heat to all pads so that the solder melt and until there is no gap left between the module and PCB.  This will require multiple passes with a larger soldering iron tip to heat more than 1 pad at a time.
+4 - Once the inner pads are soldered, change your tip to a conical one with w relatively fine tip (not super fine).  You can then start soldering the outer pads.  Make sure to keep the head and iron away from the holes of the PCB.  Only heat the castellations of the module, apply a little bit of solder and let it flow towards the PCB pad.
+5 - Go and solder the 3 sides of the module, one joint at a time.
+6 - Once you have all joints done, visually inspect all connections to make sure there are no shorts between pins.
+7 - go ahead and test with a USB tester.  This will make sure there are no shorts in the power circuitry.
+8 - to test the rest, we need to flash a bootloader and some testing firmware on it.
+
+
+
+<figure class="video-container">
+ <iframe src="//www.youtube.com/embed/k_32XvBC0sA"" frameborder="0" allowfullscreen width="100%"></iframe>
+ </figure>
+
+Tools Used:
+
+* TS 100 Soldering Iron with 19V power supply (300C setting)
+* TS-D24 Soldering Tip. This is the Chisel Tip one.
+* TS-B2 Conical Soldering Tip (not very fine like the TS-I)
+* Copper Cleaning Ball for Soldering Iron (ball of copper wool in a metal container)
+* MG Chemicals 63/37 No Clean Leaded Solder, 0.032" Diameter
+* Small Binder Clip
+* Solder Wick
 
