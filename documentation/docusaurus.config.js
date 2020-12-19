@@ -32,6 +32,11 @@ module.exports = {
           label: 'Firmware',
           position: 'right',
         },
+        {
+          href: 'http://store.jpconstantineau.com/docs/',
+          label: 'Store',
+          position: 'right',
+        },
       ],
     },
     footer: {

@@ -112,7 +112,7 @@ Steps:
 
 
 <figure class="video-container">
- <iframe src="//www.youtube.com/embed/k_32XvBC0sA"" frameborder="0" allowfullscreen width="100%"></iframe>
+ <iframe src="//www.youtube.com/embed/k_32XvBC0sA" frameborder="0" allowfullscreen width="100%"></iframe>
  </figure>
 
 Tools Used:
