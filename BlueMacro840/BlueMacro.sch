@@ -5,7 +5,7 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "BlueMacro840"
+Title "BlueMacro840 V2"
 Date ""
 Rev "0.1"
 Comp ""
@@ -742,7 +742,6 @@ Wire Wire Line
 	3550 2750 4100 2750
 NoConn ~ 5700 1700
 NoConn ~ 5700 1800
-NoConn ~ 5700 2500
 Text GLabel 6850 1500 2    50   Input ~ 0
 Reset
 Text GLabel 5450 1500 0    50   Input ~ 0
@@ -840,8 +839,6 @@ Text GLabel 4100 1750 2    50   Input ~ 0
 SWDIO
 Text GLabel 4100 1850 2    50   Input ~ 0
 SWO
-Text GLabel 4100 1650 2    50   Input ~ 0
-DFU
 $Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5EB8B98B
@@ -1063,7 +1060,7 @@ P0.30
 Text Label 6700 1700 0    50   ~ 0
 P0.30
 Text Label 6700 2700 0    50   ~ 0
-P1.06
+P1.02
 Text Label 2200 1650 2    50   ~ 0
 P0.02
 Text Label 6700 1800 0    50   ~ 0
@@ -1078,7 +1075,7 @@ Text Label 6700 2600 0    50   ~ 0
 P0.12
 Text Label 2200 2750 2    50   ~ 0
 P0.04
-Text Label 6700 2500 0    50   ~ 0
+Text Label 5700 2500 2    50   ~ 0
 P0.04
 Text Label 2200 2650 2    50   ~ 0
 P1.09
@@ -1104,4 +1101,8 @@ Text Label 3750 1850 0    50   ~ 0
 P1.00
 Text Label 4550 7600 0    50   ~ 0
 P1.00
+Text Label 4100 1650 0    50   ~ 0
+P1.02
+Text Label 6700 2500 0    50   ~ 0
+P1.06
 $EndSCHEMATC

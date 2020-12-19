@@ -52,7 +52,7 @@ You can obtain the above bootloaders from the following locations:
 
 ## Schematic
 
-![img](../static/img/schematic_bluemicro840_1.0.png)
+![img](../static/img/schematic_bluemacro840_1.0.png)
 
 
 ## Building it yourself?
