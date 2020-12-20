@@ -33,7 +33,7 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'http://store.jpconstantineau.com/docs/',
+          href: 'http://store.jpconstantineau.com/',
           label: 'Store',
           position: 'right',
         },

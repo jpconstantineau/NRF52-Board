@@ -87,7 +87,7 @@ Tools I use for soldering the connector:
 Once you have soldered the connectors on, you will need to test if there are any shorts between VUsb and GND. These are the outermost pins on each side of the connector.  Because VUsb is not available on the pins, I use a USB tester.  You can test it using a multimeter on the continuity testing function.
 
 <figure class="video-container">
- <iframe src="http://www.youtube.com/embed/2jEpu-We5eI" frameborder="0" allowfullscreen width="100%"></iframe>
+ <iframe src="//www.youtube.com/embed/2jEpu-We5eI" frameborder="0" allowfullscreen width="100%"></iframe>
  </figure>
 
 Tools I use for testing  the connector:
@@ -100,14 +100,15 @@ Tools I use for testing  the connector:
 With the hidden pads underneath the module, soldering it to a PCB using just a soldering iron isn't a trivial task.
 
 Steps:
-1 - Add a bead of solder to the inner pads of the E73 module.  Make sure that they are not too large and are all the same size
-2 - line-up the beads with the holes matching these pads in the PCB.  Since the beads will "fall into" the holes they will "fall in place" somewhat.  A binder clip will help hold everything together
-3 - heat-up the inner pads on the opposite side of the PCB, distributing the heat to all pads so that the solder melt and until there is no gap left between the module and PCB.  This will require multiple passes with a larger soldering iron tip to heat more than 1 pad at a time.
-4 - Once the inner pads are soldered, change your tip to a conical one with w relatively fine tip (not super fine).  You can then start soldering the outer pads.  Make sure to keep the head and iron away from the holes of the PCB.  Only heat the castellations of the module, apply a little bit of solder and let it flow towards the PCB pad.
-5 - Go and solder the 3 sides of the module, one joint at a time.
-6 - Once you have all joints done, visually inspect all connections to make sure there are no shorts between pins.
-7 - go ahead and test with a USB tester.  This will make sure there are no shorts in the power circuitry.
-8 - to test the rest, we need to flash a bootloader and some testing firmware on it.
+
+1. Add a bead of solder to the inner pads of the E73 module.  Make sure that they are not too large and are all the same size
+2. Line-up the beads with the holes matching these pads in the PCB.  Since the beads will "fall into" the holes they will "fall in place" somewhat.  A binder clip will help hold everything together
+3. Heat-up the inner pads on the opposite side of the PCB, distributing the heat to all pads so that the solder melt and until there is no gap left between the module and PCB.  This will require multiple passes with a larger soldering iron tip to heat more than 1 pad at a time.
+4. Once the inner pads are soldered, change your tip to a conical one with w relatively fine tip (not super fine).  You can then start soldering the outer pads.  Make sure to keep the head and iron away from the holes of the PCB.  Only heat the castellations of the module, apply a little bit of solder and let it flow towards the PCB pad.
+5. Go and solder the 3 sides of the module, one joint at a time.
+6. Once you have all joints done, visually inspect all connections to make sure there are no shorts between pins.
+7. Go ahead and test with a USB tester.  This will make sure there are no shorts in the power circuitry.
+8. To test the rest, we need to flash a bootloader and some testing firmware on it.
 
 
 
@@ -125,3 +126,30 @@ Tools Used:
 * Small Binder Clip
 * Solder Wick
 
+### Flash Bootloader
+
+Using the Community nRF52 Add-on Boards in the Arduino IDE and a Black Magic Probe (nRF52 GDB Debugger), it's possible to unlock and flash the bootloader very easily without the need to configure any special software.
+
+<figure class="video-container">
+ <iframe src="http://www.youtube.com/embed/-Na2m6-LVGI" frameborder="0" allowfullscreen width="100%"></iframe>
+ </figure>
+
+1. Select Board type.  In this case, it's a BlueMacro840
+2. Select Programmer (use Black Magic Probe - Unlock and Erase)
+3. Select Serial port from Programmer (there are 2, you may have to try each one)
+4. Select "Burn Bootloader" while making sure there is good contact with the board. This will unlock the nrf52840 (or nrf52832)
+5. Select Programmer (use Black Magic Probe)
+6. Select "Burn Bootloader" while making sure there is good contact with the board. This will flash the bootloader
+
+There are 2 common errors:
+* SWD Scan failed: this is generally due to a poor connection with the chip. Note that in the video, I give the BlueMacro840 and programmer a gentle twist to make sure I have a good contact.
+* Cannot flash because the chip is protected.  You need to "unlock and erase" before flashing the bootloader. 
+
+
+### Test USB-C Connector
+
+This step is done after the bootloader is flashed to the chip.  With the bootloader enabled, we will see if the computer detects the nRF52840 chip.  If the device doesn't connect or if the device is not recognized, it's likely that the data lines on the USB-C connector are not soldered properly.
+
+<figure class="video-container">
+ <iframe src="http://www.youtube.com/embed/brCGFSwaw_k" frameborder="0" allowfullscreen width="100%"></iframe>
+ </figure>
