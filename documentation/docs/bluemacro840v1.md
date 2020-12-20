@@ -74,7 +74,7 @@ Steps to solder the TYPE-C-31-M-12 from Korean Hroparts Elec onto a PCB using on
 5 - Once the 4 metal body pegs are soldered, pass again over the connector pins; making sure that no solder bridges two pins.
 
 <figure class="video-container">
- <iframe src="//www.youtube.com/embed/PbO9HdlcIPY" frameborder="0" allowfullscreen width="100%"></iframe>
+ <iframe src="http://www.youtube.com/embed/PbO9HdlcIPY" frameborder="0" allowfullscreen width="100%"></iframe>
  </figure>
 
 Tools I use for soldering the connector:
@@ -87,7 +87,7 @@ Tools I use for soldering the connector:
 Once you have soldered the connectors on, you will need to test if there are any shorts between VUsb and GND. These are the outermost pins on each side of the connector.  Because VUsb is not available on the pins, I use a USB tester.  You can test it using a multimeter on the continuity testing function.
 
 <figure class="video-container">
- <iframe src="//www.youtube.com/embed/2jEpu-We5eI" frameborder="0" allowfullscreen width="100%"></iframe>
+ <iframe src="http://www.youtube.com/embed/2jEpu-We5eI" frameborder="0" allowfullscreen width="100%"></iframe>
  </figure>
 
 Tools I use for testing  the connector:
@@ -112,7 +112,7 @@ Steps:
 
 
 <figure class="video-container">
- <iframe src="//www.youtube.com/embed/k_32XvBC0sA" frameborder="0" allowfullscreen width="100%"></iframe>
+ <iframe src="http://www.youtube.com/embed/k_32XvBC0sA" frameborder="0" allowfullscreen width="100%"></iframe>
  </figure>
 
 Tools Used:
