@@ -27,6 +27,7 @@ module.exports = {
         {to: 'docs/bluemicro_v2_1', label: 'nRF52832 Boards', position: 'right'},
         {to: 'docs/bluemacro840_v1', label: 'nRF52840 Boards', position: 'right'},
         {to: 'docs/macropad/4x4macropad', label: 'Macropad', position: 'right'},
+        {to: 'docs/programmer/programmer_nrf52bmp', label: 'Programmer', position: 'right'},
         {
           href: 'http://bluemicro.jpconstantineau.com/docs/',
           label: 'Firmware',
