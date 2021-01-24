@@ -43,11 +43,14 @@ You can obtain the above bootloaders from the following locations:
 ## Pinout
 ![img](../static/img/pinout_bluemicrov1.0.svg)
 
+NOTE: The Silkscreen on pin 6 (labelled 0.31) is incorrectly printed as 0.31. It should read 0.26. The schematic below is correct.
+
 ## PCB
 | Top  | Bottom  |
 |---|---|
 | <img src="http://nrf52.jpconstantineau.com/img/pcb_top_bluemicro840_1.0.svg" width="200" />   | <img src="http://nrf52.jpconstantineau.com/img/pcb_bottom_bluemicro840_1.0.svg" width="200" />  |
 
+NOTE: The Silkscreen on pin 6 (labelled 0.31) is incorrectly printed as 0.31. It should read 0.26. The schematic below is correct.
 
 ## Schematic
 
