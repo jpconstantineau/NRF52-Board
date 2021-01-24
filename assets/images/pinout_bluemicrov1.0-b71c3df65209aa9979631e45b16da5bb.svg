@@ -5090,7 +5090,7 @@
      inkscape:cx="408.93431"
      inkscape:cy="197.77704"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1605"
+     inkscape:current-layer="g3040"
      inkscape:document-rotation="0"
      showgrid="false"
      inkscape:window-width="2560"
@@ -5107,7 +5107,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -5346,7 +5346,7 @@
            y="92.211769"
            id="text985-7-4"><tspan
              sodipodi:role="line"
-             id="tspan9082">0.31</tspan></text>
+             id="tspan1109">0.26</tspan></text>
         <rect
            style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke-width:0.728175;image-rendering:auto"
            id="rect981-0-0"
