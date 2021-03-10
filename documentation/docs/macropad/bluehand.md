@@ -49,9 +49,9 @@ Once you have your BlueHand, you can head over to the builds of [zmk-artsey](htt
 
 ## PCB
 
-<img src="http://nrf52.jpconstantineau.com/img/pcb_bluehand_0.1.png.svg" width="400" /> 
+<img src="http://nrf52.jpconstantineau.com/img/pcb_bluehand_0.1.svg" width="400" /> 
 
 
 ## Schematic
 
-![img](../static/img/pcb_bluehand_0.1.png.svg)
+![img](../static/img/schematic_bluehand_0.1.png)
