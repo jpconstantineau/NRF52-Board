@@ -54,4 +54,4 @@ Once you have your BlueHand, you can head over to the builds of [zmk-artsey](htt
 
 ## Schematic
 
-![img](../static/img/schematic_bluehand_0.1.png)
+![img](http://nrf52.jpconstantineau.com/img/schematic_bluehand_0.1.png)
