@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name nrfmicro)(type Legacy)(uri ${KIPRJMOD}/nrfmicro.lib)(options "")(descr ""))
+  (lib (name nrfmicro-rescue)(type Legacy)(uri ${KIPRJMOD}/nrfmicro-rescue.lib)(options "")(descr ""))
+  (lib (name yj-14015)(type Legacy)(uri C:/GIT/NRF52-Board/Library/schematics/yj-14015.lib)(options "")(descr ""))
+  (lib (name BlueMicro840-rescue)(type Legacy)(uri ${KIPRJMOD}/BlueMicro840-rescue.lib)(options "")(descr ""))
+)
