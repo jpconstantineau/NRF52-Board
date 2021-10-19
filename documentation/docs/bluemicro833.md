@@ -39,7 +39,7 @@ CircuitPython is supported by the BlueMicro833.  You can get the UF2 Build at th
 
 ## Pinout
 
-To do.
+You can find the pinout in the schematic [here](https://github.com/jpconstantineau/BlueMicro833_hardware/blob/main/Schematic.pdf) at the top right.
 
 ## PCB
 
